@@ -1,41 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    
-<h1>Primer script php</h1>
-
-
+<html lant='es'>
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width;initial-scale=1'>
+        <title>Primer Script PHP</title>
+    </head>
+    <body>
+    <h1>Primer Script en PHP</h1>
 <?php
-echo "estos es un script en php <br>";
-echo "ejemplo<br>";
 
+// Script: 00primer_script.php
 
+echo "Esto es un script en PHP<br>";  // La sentencia echo emite una expresión a la respuesta
+echo "Esto lo ejecuta el motor de PHP<br>";
 
+# Sentencia compuesta
 {
-echo "primera sentencia en un bloque de sentencias";
-echo "segunda sentencia en un bloque de sentencias";
+    echo "Primer sentencia en un bloque de sentencias<br>";
+    echo "Segunda sentencia en un bloque de sentencias<br>"; # Este es el último echo
 }
 
-// comentario de una linea(se puede meter donde sea)
-/* 
-
-comentario multilinea 
-
+/*
+Esto es un comentario multilínea
+que ocupa varias
+líneas para poner
+explicaciones más largas.
 */
-
 
 ?>
 <hr>
-<p>fin del script</p>
-
+<p>Fin del script PHP</p>
 </body>
-
 </html>
 
 
