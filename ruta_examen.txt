@@ -1,0 +1,8 @@
+la ruta para poner en el visual para acceder al escritorio del examen es: 
+
+/var/web/examen.com  dentro de otras ubicaciones en la carpeta de ubuntu.
+
+
+Para hacer la captura buscar capturas y hacerla.
+
+
